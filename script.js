@@ -226,3 +226,33 @@ btnContinueShopping.addEventListener("click", () => {
 });
 
 displayCart();
+function proceedToCheckout() {
+  // Get references to the cart and order elements
+  const cartItems = document.getElementById("cart-items");
+  const orderList = document.getElementById("order-list");
+
+  // Clear existing order items
+  orderList.innerHTML = "";
+
+  // Loop through cart items and create new order items
+  for (const cartItem of cartItems.children) {
+   
+    const productName = cartItem.querySelector(".product-name").textContent;
+    const productQuantity = cartItem.querySelector(".product-quantity").textContent;
+    
+    // Create a new order item element
+    const orderItem = document.createElement("li");
+    orderItem.textContent = `${productName} (x${productQuantity})`;
+
+    // Add the new order item to the order list
+    orderList.appendChild(orderItem);
+  }
+
+  // Clear the cart items
+  cartItems.innerHTML = "";
+
+  alert("Items moved to checkout! Please review your order.");
+}
+
+const checkoutButton = document.getElementById("checkout-button");
+checkoutButton.addEventListener("click", proceedToCheckout);
