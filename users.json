@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "e49a",
+      "username": "shamim",
+      "password": "MzkwMjE4ODY=",
+      "email": ""
+    },
+    {
+      "id": "32b2",
+      "username": "Fancy544",
+      "password": "MzkwMjE4ODY=",
+      "email": ""
+    },
+    {
+      "id": "573c",
+      "username": "Fancy5442",
+      "password": "MzkwMjE4ODY=",
+      "email": ""
+    },
+    {
+      "id": "87f5",
+      "username": "Fancy5445",
+      "password": "MzkwMjE4ODY=",
+      "email": ""
+    },
+    {
+      "id": "eb21",
+      "username": "fancymwikali47@gmail.com",
+      "password": "MzkwMjE4ODY=",
+      "email": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "522f",
+      "description": "i will be making chapatis tonight",
+      "price": 776,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "1c5d",
+      "description": "uihbfcg b",
+      "price": 855,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "85f2",
+      "name": "Justine Mwikali Musyoki",
+      "description": "i will be making chapatis tonight",
+      "price": 222,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "3e26",
+      "name": "shoes",
+      "description": "i will be making chapatis tonight",
+      "price": 2222,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "e240",
+      "name": "fits",
+      "description": "good for running",
+      "price": 500,
+      "image": "https://i5.walmartimages.com/seo/LEEy-world-Toddler-Shoes-Children-Mesh-Shoes-Spring-and-Autumn-New-Boys-Korean-Casual-Girls-Breathable-Sneakers-Shoes-Kids-Size-10-Blue_31b4bad2-f738-45e3-87e5-884066b97e9a.3da4fe17d1b33554816beee33dd674f9.jpeg"
+    },
+    {
+      "id": "9dac",
+      "name": "shoes",
+      "description": "ggggggggggggggggggggg",
+      "price": 5666,
+      "image": "https://i5.walmartimages.com/seo/LEEy-world-Toddler-Shoes-Children-Mesh-Shoes-Spring-and-Autumn-New-Boys-Korean-Casual-Girls-Breathable-Sneakers-Shoes-Kids-Size-10-Blue_31b4bad2-f738-45e3-87e5-884066b97e9a.3da4fe17d1b33554816beee33dd674f9.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+    }
+  ],
+  "cart": [
+    {
+      "id": "522f",
+      "description": "i will be making chapatis tonight",
+      "price": 776,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE",
+      "quantity": 2
+    },
+    {
+      "id": "e240",
+      "name": "fits",
+      "description": "good for running",
+      "price": 500,
+      "image": "https://i5.walmartimages.com/seo/LEEy-world-Toddler-Shoes-Children-Mesh-Shoes-Spring-and-Autumn-New-Boys-Korean-Casual-Girls-Breathable-Sneakers-Shoes-Kids-Size-10-Blue_31b4bad2-f738-45e3-87e5-884066b97e9a.3da4fe17d1b33554816beee33dd674f9.jpeg",
+      "quantity": 2
+    },
+    {
+      "id": "9dac",
+      "name": "shoes",
+      "description": "ggggggggggggggggggggg",
+      "price": 5666,
+      "image": "https://i5.walmartimages.com/seo/LEEy-world-Toddler-Shoes-Children-Mesh-Shoes-Spring-and-Autumn-New-Boys-Korean-Casual-Girls-Breathable-Sneakers-Shoes-Kids-Size-10-Blue_31b4bad2-f738-45e3-87e5-884066b97e9a.3da4fe17d1b33554816beee33dd674f9.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "quantity": 1
+    },
+    {
+      "id": "3e26",
+      "name": "shoes",
+      "description": "i will be making chapatis tonight",
+      "price": 2222,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fu%2Fcustom-nike-dunk-high-by-you-shoes-10001378&psig=AOvVaw0UtDDWu8Yc7_7nHFdnWIrz&ust=1716387194213000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDJntr2noYDFQAAAAAdAAAAABAE",
+      "quantity": 1
+    }
+  ]
+}

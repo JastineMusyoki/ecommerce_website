@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
     <title>My E-commerce App</title>
-    <link rel="stylesheet" href="stylee.css"> <!-- Link to your CSS file -->
+    
 </head>
 <body>
+    <div class="register">
+        <form class="form" id="registerForm">
+            <label class="form_label" for="username">Username</label>
+            <input class="form_input" type="text" id="registerUsername" name="username" autocomplete="username" required />
+            <label class="form_label" for="password">Password</label>
+            <input class="form_input" type="password" id="registerPassword" name="password" autocomplete="new-password" required />
+            <label class="form_label" for="email">Email Address</label>
+            <input class="form_input" type="text" id="email" name="email" autocomplete="email" />
+            <button type="submit" id="register">Register</button>
+        </form>
+    </div>
+    <div class="login">
+        <form class="form" id="loginForm">
+            <label class="form_label" for="username">Username</label>
+            <input class="form_input" type="text" id="loginUsername" name="username" autocomplete="username" required />
+            <label class="form_label" for="password">Password</label>
+            <input class="form_input" type="password" id="loginPassword" name="password" autocomplete="current-password" required />
+            <button type="submit" id="login">Login</button>
+        </form>
+    </div>
     <header>
         <div class="container">
             <h1>My E-commerce App</h1>
@@ -20,109 +41,51 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="container">
-            <aside>
-                <h2>Deals</h2>
-                <!-- Add filtering options here -->
-            </aside>
+            
             <section class="products">
-                <!-- Product listings will be dynamically generated here -->
-                <article class="product">
-                    <img src="nails.jpg" alt="Nails"  style="width: 200px; height: 200px;">
-                    <h3>Nails</h3>
-                    <p>Blue and white nails.short and classy</p>
-                    <span>$99.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                <article class="product">
-                    <img src="lipstick.jpg" alt="Lipstick"  style="width: 200px; height: 200px;">
-                    <h3>Lipstick</h3>
-                    <p>Red lipstick. Bold and vibrant.</p>
-                    <span>$14.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                <article class="product">
-                    <img src="shoes.jpg" alt="shoes"  style="width: 200px; height: 200px;">
-                    <h3>Shoes</h3>
-                    <p>Cute black and white sneakers</p>
-                    <span>$44.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                <article class="product">
-                    <img src="jumpsuit.jpg" alt="Jumpsuit"  style="width: 200px; height: 200px;">
-                    <h3>Jumpsuit</h3>
-                    <p>Black cute classy jumpsuit size xxl</p>
-                    <span>$899.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                <article class="product">
-                    <img src="glass.jpg" alt="glass"  style="width: 200px; height: 200px;">
-                    <h3>glass</h3>
-                    <p>Red round glass. Bold and vibrant.</p>
-                    <span>$33.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                <article class="product">
-                    <img src="bicycle.jpg" alt="bicycle"  style="width: 200px; height: 200px;">
-                    <h3>Bicycle</h3>
-                    <p>Red greyish bike. Bold and vibrant.</p>
-                    <span>$994.99</span>
-                    <button>Add to Cart</button>
-                </article>
-                
-                <!-- Repeat the above structure for each product -->
+                <form class="formm" id="addProductForm">
+                    <input type="url" id="productImage" name="image" autocomplete="off" required placeholder="Product Image URL">
+                    <input type="text" id="productName" name="name" autocomplete="off" required placeholder="Product Name">
+                    <input type="text" id="productDescription" name="description" autocomplete="off" required placeholder="Product Description">
+                    <input type="number" id="productPrice" name="price" autocomplete="off" required placeholder="Product Price">
+                    
+                    <button type="submit">Add Product</button>
+                </form>
             </section>
+            <h2>Products</h2>
         </div>
+        <div class="product-list"></div>
         <div class="container">
             <h2>Your Shopping Cart</h2>
             <table>
                 <thead>
                     <tr>
+                        <th>Image</th>
                         <th>Product</th>
                         <th>Description</th>
                         <th>Price</th>
                         <th>Quantity</th>
                         <th>Total</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Cart items will be dynamically generated here -->
                 </tbody>
             </table>
+            <div class="cart-total"></div>
             <div class="cart-actions">
                 <button class="btn-continue-shopping">Continue Shopping</button>
                 <button class="btn-checkout">Proceed to Checkout</button>
             </div>
         </div>
     </main>
-
     <footer>
         <div class="container">
             <p>&copy; 2024 My E-commerce App. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        // JavaScript code to handle adding items to the cart
-        const addToCartButtons = document.querySelectorAll('.add-to-cart');
-
-        addToCartButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const product = button.closest('.product');
-                const productId = product.getAttribute('data-product-id');
-
-                // Perform any necessary actions (e.g., update cart icon, add item to cart, show notification, etc.)
-                addToCart(productId);
-            });
-        });
-
-        function addToCart(productId) {
-            // Example function to add the specified product to the cart
-            console.log(`Product with ID ${productId} added to cart.`);
-            // You can implement further logic here, such as updating the cart icon or redirecting to the cart page
-        }
-    </script>    
+    <script src="script.js"></script>
 </body>
 </html>
